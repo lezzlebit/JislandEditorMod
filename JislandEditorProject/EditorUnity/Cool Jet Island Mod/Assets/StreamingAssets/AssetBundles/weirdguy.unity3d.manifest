@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2424518792
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0be51602de014600e90d48fe12cd6a98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8589ba42a62afcf4a176dd9e0d9d30ce
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/!Assets/Test/Prefabs/WeirdGuy.prefab
+Dependencies: []

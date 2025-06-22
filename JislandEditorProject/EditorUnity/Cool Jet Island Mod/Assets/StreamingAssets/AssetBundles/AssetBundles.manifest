@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2777759301
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: weirdguy.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: shaderstorage.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: newisland.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: jislandeditor.unity3d
+      Dependencies: {}

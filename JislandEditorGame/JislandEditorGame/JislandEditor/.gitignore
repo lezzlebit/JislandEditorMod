@@ -1,0 +1,12 @@
+[Ll]ibrary/
+/Logs
+/Temp
+/Logs
+UserSettings/Layouts/default-2022.dwlt
+UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+UserSettings/EditorUserSettings.asset
+/Recordings
+/Logs
+*.log
+*.log
+Assembly-CSharp.csproj

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\CoolJetIslandMod\\CoolModUnity\\Cool Jet Island Mod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7B870A-29DE-98B5-C4E0-D4493D397C26}|Assembly-CSharp-Editor.csproj|c:\\git\\cooljetislandmod\\coolmodunity\\cool jet island mod\\assets\\editor\\exportassetbundle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7B870A-29DE-98B5-C4E0-D4493D397C26}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\exportassetbundle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExportAssetBundle.cs",
+              "DocumentMoniker": "C:\\git\\CoolJetIslandMod\\CoolModUnity\\Cool Jet Island Mod\\Assets\\Editor\\ExportAssetBundle.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\ExportAssetBundle.cs",
+              "ToolTip": "C:\\git\\CoolJetIslandMod\\CoolModUnity\\Cool Jet Island Mod\\Assets\\Editor\\ExportAssetBundle.cs",
+              "RelativeToolTip": "Assets\\Editor\\ExportAssetBundle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:46:24.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

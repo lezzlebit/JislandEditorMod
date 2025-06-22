@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 58c778fc712998c47b92c6c32c3d6360
+timeCreated: 1750362984
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Buildings
+    100002: Buildings_MeshPart0
+    100004: Buildings_MeshPart1
+    100006: Island
+    100008: //RootNode
+    100010: Structures
+    100012: Structures_MeshPart0
+    100014: Structures_MeshPart1
+    100016: Empty
+    100018: Island_MeshPart0
+    100020: Island_MeshPart1
+    100022: Structures Big Spiral
+    100024: Structures Floating
+    100026: Structures Groundish
+    100028: Structures Groundish_MeshPart0
+    100030: Structures Groundish_MeshPart1
+    100032: Structures Wires
+    100034: Spiral
+    100036: Structures Main
+    100038: Structures Main_MeshPart0
+    100040: Structures Main_MeshPart1
+    100042: Structures Other
+    100044: Structures Extra
+    100046: Structures Extra_MeshPart0
+    100048: Structures Extra_MeshPart1
+    100050: Structures Floaters
+    100052: Structures Mechanisms
+    100054: Structures Spiral
+    100056: Structures Grounded
+    100058: Structures Torus
+    400000: Buildings
+    400002: Buildings_MeshPart0
+    400004: Buildings_MeshPart1
+    400006: Island
+    400008: //RootNode
+    400010: Structures
+    400012: Structures_MeshPart0
+    400014: Structures_MeshPart1
+    400016: Empty
+    400018: Island_MeshPart0
+    400020: Island_MeshPart1
+    400022: Structures Big Spiral
+    400024: Structures Floating
+    400026: Structures Groundish
+    400028: Structures Groundish_MeshPart0
+    400030: Structures Groundish_MeshPart1
+    400032: Structures Wires
+    400034: Spiral
+    400036: Structures Main
+    400038: Structures Main_MeshPart0
+    400040: Structures Main_MeshPart1
+    400042: Structures Other
+    400044: Structures Extra
+    400046: Structures Extra_MeshPart0
+    400048: Structures Extra_MeshPart1
+    400050: Structures Floaters
+    400052: Structures Mechanisms
+    400054: Structures Spiral
+    400056: Structures Grounded
+    400058: Structures Torus
+    2300000: Buildings_MeshPart0
+    2300002: Buildings_MeshPart1
+    2300004: Island
+    2300006: Structures_MeshPart0
+    2300008: Structures_MeshPart1
+    2300010: Structures
+    2300012: Island_MeshPart0
+    2300014: Island_MeshPart1
+    2300016: Structures Big Spiral
+    2300018: Structures Floating
+    2300020: Structures Groundish_MeshPart0
+    2300022: Structures Groundish_MeshPart1
+    2300024: Structures Wires
+    2300026: Spiral
+    2300028: Structures Main_MeshPart0
+    2300030: Structures Main_MeshPart1
+    2300032: Structures Other
+    2300034: Structures Extra_MeshPart0
+    2300036: Structures Extra_MeshPart1
+    2300038: Structures Floaters
+    2300040: Structures Mechanisms
+    2300042: Structures Spiral
+    2300044: Structures Grounded
+    2300046: Structures Torus
+    3300000: Buildings_MeshPart0
+    3300002: Buildings_MeshPart1
+    3300004: Island
+    3300006: Structures_MeshPart0
+    3300008: Structures_MeshPart1
+    3300010: Structures
+    3300012: Island_MeshPart0
+    3300014: Island_MeshPart1
+    3300016: Structures Big Spiral
+    3300018: Structures Floating
+    3300020: Structures Groundish_MeshPart0
+    3300022: Structures Groundish_MeshPart1
+    3300024: Structures Wires
+    3300026: Spiral
+    3300028: Structures Main_MeshPart0
+    3300030: Structures Main_MeshPart1
+    3300032: Structures Other
+    3300034: Structures Extra_MeshPart0
+    3300036: Structures Extra_MeshPart1
+    3300038: Structures Floaters
+    3300040: Structures Mechanisms
+    3300042: Structures Spiral
+    3300044: Structures Grounded
+    3300046: Structures Torus
+    4300000: Buildings_MeshPart0
+    4300002: Buildings_MeshPart1
+    4300004: Island
+    4300006: Structures_MeshPart0
+    4300008: Structures_MeshPart1
+    4300010: Structures
+    4300012: Island_MeshPart0
+    4300014: Island_MeshPart1
+    4300016: Structures Big Spiral
+    4300018: Structures Floating
+    4300020: Structures Groundish_MeshPart0
+    4300022: Structures Groundish_MeshPart1
+    4300024: Structures Wires
+    4300026: Spiral
+    4300028: Structures Main_MeshPart0
+    4300030: Structures Main_MeshPart1
+    4300032: Structures Other
+    4300034: Structures Extra_MeshPart0
+    4300036: Structures Extra_MeshPart1
+    4300038: Structures Floaters
+    4300040: Structures Mechanisms
+    4300042: Structures Spiral
+    4300044: Structures Grounded
+    4300046: Structures Torus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

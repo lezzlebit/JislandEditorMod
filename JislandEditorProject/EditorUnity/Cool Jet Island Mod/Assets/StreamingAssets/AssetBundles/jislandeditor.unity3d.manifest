@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 1177167976
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a981c7a8f6b16efddd5617e673cbd95b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1dcafeb0b1cd79bec302f27411a85072
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/!Assets/Editor/Prefabs/Cylinder.prefab
+- Assets/!Assets/Editor/Prefabs/NaturalArch.prefab
+- Assets/!Assets/Editor/Prefabs/Hill.prefab
+- Assets/!Assets/Editor/Prefabs/BrickRing.prefab
+- Assets/!Assets/Editor/Prefabs/Bowl.prefab
+- Assets/!Assets/Editor/Prefabs/LargeHalfCylinder.prefab
+- Assets/!Assets/Editor/Prefabs/Peak.prefab
+- Assets/!Assets/Editor/Prefabs/Cube.prefab
+- Assets/!Assets/Editor/Prefabs/LargeIsland1.prefab
+- Assets/!Assets/Editor/Prefabs/Sphere.prefab
+- Assets/!Assets/Editor/Prefabs/WaterCircle.prefab
+- Assets/!Assets/Editor/Prefabs/Spike.prefab
+- Assets/!Assets/Editor/Prefabs/SpeedBoost.prefab
+- Assets/!Assets/Editor/Prefabs/Torus.prefab
+- Assets/!Assets/Editor/Prefabs/HollowCube.prefab
+- Assets/!Assets/Editor/Prefabs/WaterBowlIsland.prefab
+- Assets/!Assets/Editor/Prefabs/QuarterPipe.prefab
+- Assets/!Assets/Editor/Prefabs/LoopDeLoop.prefab
+- Assets/!Assets/Editor/Prefabs/HalfPipe.prefab
+- Assets/!Assets/Editor/Prefabs/HollowCylinder.prefab
+- Assets/!Assets/Editor/Prefabs/Obelisk.prefab
+Dependencies: []
