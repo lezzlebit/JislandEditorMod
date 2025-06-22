@@ -1,6 +1,7 @@
 using RuntimeGizmos;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,7 @@ public class CameraController : MonoBehaviour
     public UnityEvent onDelete;
     public UnityEvent onDuplicate;
     [Header("References")]
+    public TextMeshProUGUI scrollIndicator;
     public GameObject ctrlHToggle;
     public GameObject gizmoEnableCopy;
     public TransformGizmo gizmo;
@@ -18,8 +20,9 @@ public class CameraController : MonoBehaviour
     public LayerMask objects;
     [Header("Prefs")]
     public float MoveSpeed;
-    float moveMultiplier;
     [Header("Exposed")]
+    float scrollIndicatorFade = 1;
+    public float moveMultiplier;
     public Transform selectedGizmo;
     public Transform selectedObject;
     SaveLoad load;
@@ -52,8 +55,10 @@ public class CameraController : MonoBehaviour
     }
     void Update()
     {
+        scrollIndicatorFade = Mathf.MoveTowards(scrollIndicatorFade, 1, Time.deltaTime);
         gizmo.enabled = !gizmoEnableCopy.activeSelf;
         foreach(GameObject obj in createActive) obj.SetActive(!gizmoEnableCopy.activeSelf);
+        scrollIndicator.color = Color.Lerp(Color.white, new Color(1, 1, 1, 0), scrollIndicatorFade);
 
         if (Input.GetMouseButton(1))
         {
@@ -68,15 +73,20 @@ public class CameraController : MonoBehaviour
             if (Input.GetKey("d")) movement += Vector3.right;
             movement.Normalize();
             float multiplier = 1;
-            if (Input.GetKey(KeyCode.LeftShift)) multiplier = 2;
+            if (Input.GetKey(KeyCode.LeftShift)) multiplier = 4;
             cam.transform.Translate(movement * Time.deltaTime * MoveSpeed * moveMultiplier * multiplier);
-            if (movement.magnitude != 0)
+            if (Mathf.Abs(Input.mouseScrollDelta.y) > 0)
             {
-                moveMultiplier += Time.deltaTime * 10;
-            } else
+                scrollIndicatorFade = 0;
+                moveMultiplier *= 1 + ((float)Input.mouseScrollDelta.y / 10);
+            }
+            if (Input.GetMouseButtonDown(2))
             {
                 moveMultiplier = 1;
+                scrollIndicatorFade = 0;
             }
+            moveMultiplier = Mathf.Clamp(moveMultiplier, 0.11f, 100f);
+            scrollIndicator.text = "Camera Speed: " + (Mathf.Round(moveMultiplier * 10) / 10).ToString();
             selectedGizmo = null;
         } else
         {

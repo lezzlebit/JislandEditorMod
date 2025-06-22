@@ -8,6 +8,7 @@ using UnityEngine;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using TMPro;
+using System.Net;
 
 namespace JislandEditor
 {
@@ -26,7 +27,6 @@ namespace JislandEditor
         int _currentLevelId;
         HologramButtonScript hologramBasis;
         GameObject newIsland;
-        GameObject shaders;
         Material islandMaterial;
         bool LoadedLevel = false;
         Vector3 currentHologramPlacement;
@@ -95,6 +95,29 @@ namespace JislandEditor
             ReloadHolograms(false);
         }
 
+        //public void GetOnlineLevels()
+        //{
+        //    Debug.Log("Starting!");
+        //    string Path = "https://jislandeditor-online.glitch.me/";
+        //    string onlineLevels = GetFileViaHttp(Path + "uploaded.txt");
+        //    Debug.Log(onlineLevels);
+        //    string[] lines = onlineLevels.Split('\n');
+        //    foreach (string l in lines)
+        //    {
+        //        string thisLevel = GetFileViaHttp(Path + $"levels/{l}");
+        //        Debug.Log(thisLevel);
+        //    }
+        //}
+
+
+        public string GetFileViaHttp(string url)
+        {
+            using (WebClient client = new WebClient())
+            {
+                return client.DownloadString(url);
+            }
+        }
+
         public void ShowMessages()
         {
             if (LevelsCreated != 0)
@@ -144,12 +167,15 @@ namespace JislandEditor
 
         public void LoadMenu()
         {
-            
+
             TextMeshPro titleText = GameObject.Instantiate(GameObject.Find("by Eric Tereshinski")).GetComponent<TextMeshPro>();
             titleText.transform.position = new Vector3(0, 2.4556f, 3.3461f);
             titleText.text = "Jisland Editor!\r\nPress F1 to open levels folder";
             titleText.fontSize = 30;
             titleText.transform.gameObject.name = "Jisland Editor";
+
+            LoadedMenu = true;
+            //GetOnlineLevels();
         }
 
         void IPlugin.OnUpdate()

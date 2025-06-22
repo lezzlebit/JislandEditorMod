@@ -1424,7 +1424,7 @@ namespace RuntimeGizmos
 			if(lineMaterial == null)
 			{
 				lineMaterial = new Material(Shader.Find("Shader Graphs/Gizmo"));
-				outlineMaterial = new Material(Shader.Find("Shader Graphs/Outline"));
+				outlineMaterial = new Material(Shader.Find("Shader Graphs/HoloOutline"));
 			}
 		}
 	}

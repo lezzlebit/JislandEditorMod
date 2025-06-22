@@ -90,6 +90,7 @@ namespace JislandEditor
                     {
                         prefab.tag = "Water";
                         prefab.layer = LayerMask.NameToLayer("Water");
+                        GetMaterialAfter = true;
                     } else
                     {
                         Texture splat = render.material.GetTexture("_MainTex");
@@ -131,7 +132,7 @@ namespace JislandEditor
         }
         public void RemoveAll()
         {
-
+            FindObjectOfType<OptionsController>().meshLightRays.GetComponent<MeshRenderer>().enabled = false;
             RemoveIndividual("tutorial parent");
 
 

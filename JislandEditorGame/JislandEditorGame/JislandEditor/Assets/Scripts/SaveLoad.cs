@@ -72,9 +72,12 @@ public class SaveLoad : MonoBehaviour
         string[] files = Directory.GetFiles(Application.persistentDataPath);
         for (int i = 0; i < files.Length; i++)
         {
-            LoadLevelButton b = Instantiate(button, buttonParent).GetComponent<LoadLevelButton>();
-            b.name = files[i];
-            b.text.text = Path.GetFileName(files[i]).Replace(".txt","");
+            if (Path.GetFileName(files[i]).Contains(".txt"))
+            {
+                LoadLevelButton b = Instantiate(button, buttonParent).GetComponent<LoadLevelButton>();
+                b.name = files[i];
+                b.text.text = Path.GetFileName(files[i]).Replace(".txt", "");
+            }
         }
     }
 
