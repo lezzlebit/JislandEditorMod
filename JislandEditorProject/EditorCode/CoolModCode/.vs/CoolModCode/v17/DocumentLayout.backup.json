@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|c:\\git\\jislandeditormod\\jislandeditorproject\\editorcode\\coolmodcode\\coolmodcode\\editormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|solutionrelative:coolmodcode\\editormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\coolmodcode\\levelloadbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|solutionrelative:coolmodcode\\levelloadbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|c:\\git\\jislandeditormod\\jislandeditorproject\\editorcode\\coolmodcode\\coolmodcode\\editormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|solutionrelative:coolmodcode\\editormain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B48F7CB9-2805-483E-A556-101057476CE0}|CoolModCode\\JislandEditor.csproj|C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\coolmodcode\\loadedlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,28 +38,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EditorMain.cs",
               "DocumentMoniker": "C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\CoolModCode\\EditorMain.cs",
               "RelativeDocumentMoniker": "CoolModCode\\EditorMain.cs",
               "ToolTip": "C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\CoolModCode\\EditorMain.cs",
               "RelativeToolTip": "CoolModCode\\EditorMain.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAA8wBkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T02:13:24.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LevelLoadButton.cs",
               "DocumentMoniker": "C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\CoolModCode\\LevelLoadButton.cs",
               "RelativeDocumentMoniker": "CoolModCode\\LevelLoadButton.cs",
               "ToolTip": "C:\\git\\JislandEditorMod\\JislandEditorProject\\EditorCode\\CoolModCode\\CoolModCode\\LevelLoadButton.cs",
               "RelativeToolTip": "CoolModCode\\LevelLoadButton.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:13:21.041Z"
+              "WhenOpened": "2025-06-21T02:13:21.041Z",
+              "EditorCaption": ""
             }
           ]
         }

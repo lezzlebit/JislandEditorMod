@@ -2388,7 +2388,7 @@ MonoBehaviour:
   translationSnapping: 306
   AddSelection: 304
   RemoveSelection: 306
-  ActionKey: 304
+  ActionKey: 306
   UndoAction: 122
   RedoAction: 121
   xColor: {r: 1, g: 0.062745094, b: 0.41716444, a: 0.8}
